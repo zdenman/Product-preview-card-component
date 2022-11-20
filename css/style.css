@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -18,14 +22,16 @@
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 1rem;
 }
-.main .parfum-img {
+.main .card .parfum-img {
   width: 100%;
   border-radius: 1rem 1rem 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.main .content {
+.main .card .content {
   margin: 1.5rem;
 }
-.main .content .category {
+.main .card .content .category {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
@@ -33,37 +39,37 @@
   font-weight: 500;
   letter-spacing: 0.2rem;
 }
-.main .content .headline {
+.main .card .content .headline {
   font-family: "Fraunces", serif;
   font-weight: 700;
   margin: 0.5rem 0 0.5rem 0;
 }
-.main .content p {
+.main .card .content p {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.3rem;
 }
-.main .content .prices {
+.main .card .content .prices {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin: 1rem 0 1rem 0;
 }
-.main .content .prices .price {
+.main .card .content .prices .price {
   font-family: "Fraunces", serif;
   font-size: 2rem;
   color: hsl(158deg, 36%, 37%);
 }
-.main .content .prices .discount {
+.main .card .content .prices .discount {
   color: hsl(228deg, 12%, 48%);
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   text-decoration: line-through;
   font-weight: 500;
 }
-.main .content .button {
+.main .card .content .button {
   background-color: hsl(158deg, 36%, 37%);
   border: none;
   text-align: center;
@@ -72,6 +78,37 @@
   border-radius: 0.5rem;
   color: hsl(0deg, 0%, 100%);
 }
-.main .content .button span {
+.main .card .content .button span {
   padding-right: 0.8rem;
+}
+.main .card .content .button:hover {
+  background-color: hsl(212deg, 21%, 14%);
+  cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .main .card {
+    display: flex;
+    flex-direction: row;
+    max-width: 37.5rem;
+  }
+  .main .card .image {
+    width: 55%;
+  }
+  .main .card .image img {
+    max-width: 100%;
+    height: 100%;
+    content: url("../images/image-product-desktop.jpg");
+    border-radius: 1rem 0 0 1rem;
+  }
+  .main .card .content {
+    width: 45%;
+    margin: 2rem;
+  }
+  .main .card .content .headline {
+    font-size: 2.5rem;
+  }
+  .main .card .content p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style.css.map */
