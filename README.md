@@ -8,8 +8,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zdenman/QR-code-component)
-- Live Site URL: [Add live site URL here](http://qr-code-component-zdenman.vercel.app/)
+- Solution URL: [here](https://github.com/zdenman/Product-preview-card-component/)
+- Live Site URL: [here](https://product-preview-card-component-eight-black.vercel.app/)
 
 ## My process
 
