@@ -1,0 +1,35 @@
+# Frontend Mentor - Product preview card component solution
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/zdenman/QR-code-component)
+- Live Site URL: [Add live site URL here](http://qr-code-component-zdenman.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- SASS
+- Flexbox
+- Mobile-first workflow
+
+
+### What I learned
+
+This is my second project with SASS. Curently am not using anuthing from fancy SASS possibilities :D, just nesting properties for start while I dont feel confident enough to implement other stuff.
+
+I used include-media Sass library for writing CSS media queries in an easy and maintainable way, using a natural and simplistic syntax. Iclude media Sass library is writen by [Eduardo Bouças](https://github.com/eduardoboucas) and you can find out more at [Include media](https://github.com/eduardoboucas/include-media)
+
+## Author
+
+- Website - [Zdeno Ceman](https://www.zdenoceman.com)
+- Frontend Mentor - [@zdenman](https://www.frontendmentor.io/profile/zdenman)
+
